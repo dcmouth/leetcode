@@ -32,3 +32,5 @@ class Solution(object):
 nums = [1,2,3,1]
 a = Solution()
 print(a.containsDuplicate(nums))
+
+print("github上增加的部分")
