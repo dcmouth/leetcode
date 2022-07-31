@@ -27,7 +27,7 @@ class Solution(object):
         #return len(nums) > len(set(nums))
 
         
-        
+print("本地增加的部分")
 
 nums = [1,2,3,1]
 a = Solution()
