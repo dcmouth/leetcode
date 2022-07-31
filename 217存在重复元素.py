@@ -21,11 +21,7 @@ class Solution(object):
                 hashdict[i] = 1
             else:
                 hashdict[i] += 1
-        print(hashdict)
-        if [key for key,val in hashdict.items() if val != 1]:
-            return True
-        else:
-            return  False
+
         
         #另外一种方法 set()的时间复杂度是O(1)或者是O(n)很小的
         #return len(nums) > len(set(nums))
